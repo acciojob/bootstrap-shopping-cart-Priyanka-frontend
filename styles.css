@@ -1,1 +1,141 @@
-/*  your css code here. If applicable */
+ h1, h2, h3, h4, h5, h6 {
+            color: #3b99e0;
+        }
+
+        /* Block Heading */
+        .block-heading {
+            text-align: center;
+            margin-bottom: 3rem;
+			color: #3b99e0;
+        }
+
+        .block-heading h1 {
+            font-size: 2.5rem;
+            font-weight: 300;
+            margin-bottom: 1.5rem;
+        }
+
+        .block-heading p {
+            color: #666;
+            font-size: 1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Product Block */
+        .product {
+            padding: 2rem;
+            background: white;
+            margin-bottom: 2rem;
+            border-radius: 4px;
+        }
+
+        .product img {
+            max-width: 150px;
+            height: auto;
+        }
+
+        .product h3 {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product p {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .product .quantity-section {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .product input[type="number"] {
+            width: 70px;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        .product .price {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Summary Block */
+        .summary {
+            background-color: #f7fbff;
+            border-top: 3px solid #5ea4f3;
+            padding: 2rem;
+            border-radius: 4px;
+            position: sticky;
+            top: 20px;
+        }
+
+        .summary h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .summary .summary-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .summary .summary-row:last-of-type {
+            border-bottom: none;
+        }
+
+        .summary .summary-row label {
+            color: #666;
+            font-weight: 500;
+        }
+
+        .summary .summary-row .value {
+            color: #333;
+            font-weight: 600;
+        }
+
+        .summary .total-row {
+            padding: 1.5rem 0;
+            border-top: 2px solid #ddd;
+            font-size: 1.2rem;
+            font-weight: 700;
+        }
+
+        .summary .checkout-btn {
+            width: 100%;
+            padding: 1rem;
+            background: linear-gradient(90deg, #4a90e2, #3d7bc9);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            cursor: pointer;
+            margin-top: 1.5rem;
+            transition: background 0.3s ease;
+        }
+
+        .summary .checkout-btn:hover {
+            background: linear-gradient(90deg, #3d7bc9, #2e5fa0);
+        }
+
+        /* Container and Layout */
+        .shopping-cart-container {
+            background: #f5f5f5;
+            padding: 3rem 0;
+            min-height: 100vh;
+        }
+
+        .cart-content {
+            background: white;
+            padding: 2rem;
+            border-radius: 4px;
+        }
